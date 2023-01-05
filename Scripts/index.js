@@ -73,8 +73,8 @@ $(function() {
       }
     });
 
-    $celsius.addClass('active').removeAttr('href');
-    $fahrenheit.removeClass('active').attr("href", '#');
+    $fahrenheit.addClass('active').removeAttr('href');
+    $celsius.removeClass('active').attr("href", '#');
     $icon.removeClass();
     $button.removeClass().addClass('button transparent');
 
